@@ -6,7 +6,7 @@ import plotly.express as px
 
 st.set_page_config(layout='wide')
 
-df = pd.read_csv(r'C:\Users\khima\Downloads\india1.csv')
+df = pd.read_csv('india1.csv')
 
 
 state= list(df['State'].unique())
